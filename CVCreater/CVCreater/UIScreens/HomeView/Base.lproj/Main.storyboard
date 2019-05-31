@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="itt-As-Umg">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CV Creater-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ei-Kn-wdf">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Features" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzt-a2-5Md">
+                                        <rect key="frame" x="10" y="20" width="394" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="WmC-Q7-SBU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VQD-Al-6Q2">
+                                        <rect key="frame" x="8" y="100" width="398" height="150"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.06826546788" green="0.3240849972" blue="0.62363719939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Pna-0j-kQA"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="lFr-pY-9dW" appends="YES" id="2JR-wt-Ovn"/>
+                                            <outletCollection property="gestureRecognizers" destination="lFr-pY-9dW" appends="YES" id="tXE-rT-8Sl"/>
+                                            <outletCollection property="gestureRecognizers" destination="lFr-pY-9dW" appends="YES" id="KXi-sZ-q3C"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CV Template" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtc-Fp-LVQ">
+                                        <rect key="frame" x="8" y="100" width="398" height="150"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-a1-ZKa">
+                                        <rect key="frame" x="8" y="258" width="398" height="150"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Own CV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xso-9K-UE3">
+                                        <rect key="frame" x="8" y="258" width="398" height="150"/>
+                                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="xso-9K-UE3" firstAttribute="width" secondItem="cHH-a1-ZKa" secondAttribute="width" id="0Su-Uy-9kq"/>
+                                    <constraint firstItem="vtc-Fp-LVQ" firstAttribute="width" secondItem="VQD-Al-6Q2" secondAttribute="width" id="4dE-RD-nDm"/>
+                                    <constraint firstAttribute="trailing" secondItem="xso-9K-UE3" secondAttribute="trailing" constant="8" id="7Bv-rc-JWc"/>
+                                    <constraint firstItem="xso-9K-UE3" firstAttribute="height" secondItem="cHH-a1-ZKa" secondAttribute="height" id="8r4-BL-VXI"/>
+                                    <constraint firstItem="xso-9K-UE3" firstAttribute="leading" secondItem="4Ei-Kn-wdf" secondAttribute="leading" constant="8" id="Axb-iH-LPV"/>
+                                    <constraint firstItem="vtc-Fp-LVQ" firstAttribute="height" secondItem="VQD-Al-6Q2" secondAttribute="height" id="BcH-on-eFI"/>
+                                    <constraint firstItem="cHH-a1-ZKa" firstAttribute="width" secondItem="VQD-Al-6Q2" secondAttribute="width" id="HTN-3t-nEz"/>
+                                    <constraint firstAttribute="trailing" secondItem="VQD-Al-6Q2" secondAttribute="trailing" constant="8" id="O7F-ic-3fq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gzt-a2-5Md" secondAttribute="trailing" constant="10" id="Ohi-7q-3q4"/>
+                                    <constraint firstItem="vtc-Fp-LVQ" firstAttribute="centerY" secondItem="VQD-Al-6Q2" secondAttribute="centerY" id="Q5r-B8-ehl"/>
+                                    <constraint firstItem="cHH-a1-ZKa" firstAttribute="leading" secondItem="4Ei-Kn-wdf" secondAttribute="leading" constant="8" id="UAf-UI-Vgk"/>
+                                    <constraint firstItem="cHH-a1-ZKa" firstAttribute="top" secondItem="VQD-Al-6Q2" secondAttribute="bottom" constant="8" id="WP8-Cm-U3D"/>
+                                    <constraint firstItem="cHH-a1-ZKa" firstAttribute="height" secondItem="VQD-Al-6Q2" secondAttribute="height" id="Y8a-2Y-hR6"/>
+                                    <constraint firstItem="Gzt-a2-5Md" firstAttribute="leading" secondItem="4Ei-Kn-wdf" secondAttribute="leading" constant="10" id="Yzy-iE-fIF"/>
+                                    <constraint firstAttribute="trailing" secondItem="cHH-a1-ZKa" secondAttribute="trailing" constant="8" id="anW-2K-PIa"/>
+                                    <constraint firstItem="Gzt-a2-5Md" firstAttribute="top" secondItem="4Ei-Kn-wdf" secondAttribute="top" constant="20" id="dho-iJ-Fac"/>
+                                    <constraint firstItem="xso-9K-UE3" firstAttribute="top" secondItem="cHH-a1-ZKa" secondAttribute="top" id="f51-uu-jcS"/>
+                                    <constraint firstItem="VQD-Al-6Q2" firstAttribute="leading" secondItem="4Ei-Kn-wdf" secondAttribute="leading" constant="8" id="gLO-eX-qhH"/>
+                                    <constraint firstItem="vtc-Fp-LVQ" firstAttribute="centerX" secondItem="VQD-Al-6Q2" secondAttribute="centerX" id="gva-dU-bm9"/>
+                                    <constraint firstItem="VQD-Al-6Q2" firstAttribute="top" secondItem="Gzt-a2-5Md" secondAttribute="bottom" constant="40" id="vNc-aW-eQs"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lFr-pY-9dW" appends="YES" id="joZ-6f-R64"/>
+                                    <outletCollection property="gestureRecognizers" destination="lFr-pY-9dW" appends="YES" id="3XQ-j4-CfU"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Ei-Kn-wdf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dtf-Qw-MFD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Ei-Kn-wdf" secondAttribute="bottom" id="EqM-ga-JBR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Ei-Kn-wdf" secondAttribute="trailing" id="NuH-rP-LaM"/>
+                            <constraint firstItem="4Ei-Kn-wdf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="f6Q-0a-0kM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CV Creater" id="zKG-OL-1Lj"/>
+                    <connections>
+                        <outlet property="resumeCreater" destination="VQD-Al-6Q2" id="zRL-vB-fha"/>
+                        <segue destination="j1l-GJ-kaz" kind="show" identifier="pushDashboard" id="hqh-mo-1Jg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lFr-pY-9dW">
+                    <connections>
+                        <action selector="tapGesture:" destination="BYZ-38-t0r" id="c8l-Ul-2ae"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="97.767857142857139"/>
+        </scene>
+        <!--Dashboard View Controller-->
+        <scene sceneID="Yaf-ph-tBe">
+            <objects>
+                <viewController id="j1l-GJ-kaz" customClass="DashboardViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PrI-al-f4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="spo-w9-MZl"/>
+                    </view>
+                    <connections>
+                        <segue destination="BJf-ux-WKz" kind="show" identifier="showPersonal" id="LLz-ar-ky9"/>
+                        <segue destination="Gow-8e-xUZ" kind="show" identifier="showEducation" id="RiE-AF-vIE"/>
+                        <segue destination="NkX-cb-Fh1" kind="show" identifier="showTopicOfKnowledge" id="yrp-ud-od7"/>
+                        <segue destination="TuD-fu-Cms" kind="show" identifier="showProjectDetails" id="TLR-Xp-EQ4"/>
+                        <segue destination="X4M-Wr-0HY" kind="show" identifier="showCurrentCompany" id="wu4-Fa-lnW"/>
+                        <segue destination="slU-3V-cEr" kind="show" identifier="showAdditionalInfo" id="B6H-5P-CjX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WuD-18-Kg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="120"/>
+        </scene>
+        <!--Personal Info Controller-->
+        <scene sceneID="8Qb-wQ-HIV">
+            <objects>
+                <viewController id="BJf-ux-WKz" customClass="PersonalInfoController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NT7-Eq-sTx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0Up-L7-ZMm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JMd-Vx-CYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2839" y="120"/>
+        </scene>
+        <!--Additional Info View Controller-->
+        <scene sceneID="E9A-7M-pPB">
+            <objects>
+                <viewController id="slU-3V-cEr" customClass="AdditionalInfoViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0zJ-54-xAF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="acD-N3-2Q3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qt-Lt-11P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="287" y="996"/>
+        </scene>
+        <!--Current Company View Controller-->
+        <scene sceneID="Cdz-Sl-dBw">
+            <objects>
+                <viewController id="X4M-Wr-0HY" customClass="CurrentCompanyViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fiq-Bh-oKS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KIN-fI-FUc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="in5-f3-so8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="1010"/>
+        </scene>
+        <!--Project Details View Controller-->
+        <scene sceneID="Vfn-qU-hiy">
+            <objects>
+                <viewController id="TuD-fu-Cms" customClass="ProjectDetailsViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dfp-Ti-e91">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h6f-sr-9l3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzc-YF-Eie" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="1025"/>
+        </scene>
+        <!--Topic Of Knowledge View Controller-->
+        <scene sceneID="tx2-gE-ipJ">
+            <objects>
+                <viewController id="NkX-cb-Fh1" customClass="TopicOfKnowledgeViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JIM-et-CXI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Tp-w5-6iY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8r-Rm-smh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2464" y="1010"/>
+        </scene>
+        <!--Education View Controller-->
+        <scene sceneID="PgC-34-Snw">
+            <objects>
+                <viewController id="Gow-8e-xUZ" customClass="EducationViewController" customModule="CVCreater" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gqg-Xc-BP0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Z2M-kc-gzl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UyM-10-4RR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3128" y="621"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mdm-eC-8g2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="itt-As-Umg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GOz-ls-wFy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vFg-eE-gdd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Vw-r0-D15" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="98"/>
+        </scene>
+    </scenes>
+</document>
